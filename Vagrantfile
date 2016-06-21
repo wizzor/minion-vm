@@ -3,23 +3,23 @@
 
 # Configure as needed to share source between Vagrant and your machine
 # If you update the IPs, make sure to change vagrant-hosts.sh as well
-BACKEND_SRC = "/Users/april/Source/minion/minion-backend/"
+BACKEND_SRC = "../minion-backend/"
 BACKEND_DST = "/opt/minion/minion-backend/"
 BACKEND_IP = "192.168.50.49"
 
-FRONTEND_SRC = "/Users/april/Source/minion/minion-frontend/"
+FRONTEND_SRC = "../minion-frontend/"
 FRONTEND_DST = "/opt/minion/minion-frontend/"
 FRONTEND_IP = "192.168.50.50"
 
 # This is an optional example of how to develop a plugin; make sure to uncomment
 # the synced_folder line below. Note that nmap is automatically pulled in via git clone
 # in backend.sh, so make sure to comment that line out as well
-BACKEND_PLUGIN_NMAP_SRC = "/Users/april/Source/minion/minion-nmap-plugin/"
+BACKEND_PLUGIN_NMAP_SRC = "../minion-nmap-plugin/"
 BACKEND_PLUGIN_NMAP_DST = "/opt/minion/minion-nmap-plugin/"
 
 # Create this directory, so that vagrant can cache the apt archives between instances
 # and installations
-APT_CACHE_SRC = "/Users/april/Library/Caches/com.hashicorp.vagrant/apt-cache/"
+APT_CACHE_SRC = "../apt-cache/"
 APT_CACHE_DST = "/var/cache/apt/archives/"
 
 # Vagrant config options

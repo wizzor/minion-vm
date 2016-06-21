@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-MINION_ADMINISTRATOR_EMAIL="april@mozilla.com"
-MINION_ADMINISTRATOR_NAME="April King"
+MINION_ADMINISTRATOR_EMAIL="visa.parviainen@eficode.com"
+MINION_ADMINISTRATOR_NAME="Visa Parviainen"
 
 # The base directory for large pieces of the install
 MINION_BASE_DIRECTORY=/opt/minion
