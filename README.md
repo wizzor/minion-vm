@@ -1,4 +1,9 @@
-# minion-vm
+# Eficode Minion Tutorial
+
+This repository is intended to be used with [this blog post](https://eficode.com/blog/some/path). It is only a slight variation of the original [mozilla/minion-vm](https://github.com/mozilla/minion-vm) repository. If you are looking for the most recent developments in Minion, we suggest you use that version.
+
+Original README file follows.
+
 Vagrantfile and Dockerfiles to make developing against [Mozilla Minion](https://github.com/mozilla/minion) far easier.
 
 **minion-vm** automatically installs the following Minion components:
